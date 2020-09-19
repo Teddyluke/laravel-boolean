@@ -7,7 +7,7 @@
  }
 
 .centratura {
-  padding: 0 5%;
+  padding: 0 10%;
 }
  header {
 
@@ -35,3 +35,17 @@
    }
 
  }
+// fine parti comuni
+
+
+// home content
+
+.pasta-lunga, .pasta-corta, .pasta-cortissima {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    width: 250px;
+    height: 125px;
+  }
+}
